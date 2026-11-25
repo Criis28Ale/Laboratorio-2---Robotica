@@ -1,0 +1,10 @@
+services:
+  ros2:
+    environment:
+      GALLIUM_DRIVER: d3d12
+      MESA_D3D12_DEFAULT_ADAPTER_NAME: NVIDIA
+      LD_LIBRARY_PATH: /usr/lib/wsl/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+    devices:
+      - /dev/dxg:/dev/dxg
+    volumes:
+      - /usr/lib/wsl:/usr/lib/wsl:ro

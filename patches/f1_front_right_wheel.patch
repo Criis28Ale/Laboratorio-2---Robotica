@@ -1,0 +1,13 @@
+diff --git a/CustomRobots/f1/models/f1/f1_common.urdf.xacro b/CustomRobots/f1/models/f1/f1_common.urdf.xacro
+index 6d450e70c..893afef5e 100644
+--- a/CustomRobots/f1/models/f1/f1_common.urdf.xacro
++++ b/CustomRobots/f1/models/f1/f1_common.urdf.xacro
+@@ -197,7 +197,7 @@
+         <origin rpy="0 0 0" xyz="-0.175 0.02888 0.30348" />
+         <geometry>
+           <mesh
+-            filename="file:///home/ws/install/custom_robots/share/custom_robots/models/f1/meshes/front_right.obj"
++            filename="file://$(find custom_robots)/models/f1/meshes/front_right.obj"
+             scale="0.02 0.02 0.02" />
+         </geometry>
+       </visual>

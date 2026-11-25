@@ -1,0 +1,12 @@
+{
+    "samples": 100,
+    "cpu_max_difference": 1.7881393432617188e-07,
+    "cpu_mean_difference": 2.657994713217704e-08,
+    "cpu_equivalent": true,
+    "cuda_equivalent": null,
+    "providers": [
+        "CPUExecutionProvider"
+    ],
+    "mean_latency_ms": 0.3275777066695203,
+    "p95_latency_ms": 0.5853947001924106
+}

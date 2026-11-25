@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ROS 2
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Dataset
+ros2_ws/training/dataset/
+
+# External repositories
+RoboticsInfrastructure/
+ros2_ws/src/custom_robots
+
+# Training checkpoints
+**/last_checkpoint.pt
+**/events.out.tfevents.*
+
+# Environment
+.env
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Videos
+*.mp4
+*.avi
+*.mkv
